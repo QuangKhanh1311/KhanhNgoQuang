@@ -189,6 +189,17 @@ ul  { list-style: none; }
 .container   { max-width: 860px; margin: 0 auto; }
 
 .section-header { margin-bottom: 2.5rem; }
+.pub-section-header {
+  display: flex; align-items: center; justify-content: space-between; gap: 1.5rem;
+}
+.pub-header-text { flex: 1; }
+.pub-header-img {
+  height: 200px; width: auto;
+  object-fit: contain;
+  flex-shrink: 0;
+  border-radius: 8px;
+}
+.section-mascot-img:not([src]), .section-mascot-img[src=""] { display: none; }
 .section-label { display: none; }
 .section-title {
   font-size: 1.35rem; font-weight: 700; color: var(--text);
