@@ -190,7 +190,8 @@ ul  { list-style: none; }
 
 .section-header { margin-bottom: 2.5rem; }
 .pub-section-header {
-  display: flex; align-items: center; justify-content: space-between; gap: 1.5rem;
+  display: flex; align-items: flex-start; justify-content: space-between; gap: 1.5rem;
+  margin-bottom: 2.5rem;
 }
 .pub-header-text { flex: 1; }
 .pub-header-img {
@@ -198,6 +199,8 @@ ul  { list-style: none; }
   object-fit: contain;
   flex-shrink: 0;
   border-radius: 8px;
+  align-self: center;
+  margin-top: 0;
 }
 .section-mascot-img:not([src]), .section-mascot-img[src=""] { display: none; }
 .section-label { display: none; }
